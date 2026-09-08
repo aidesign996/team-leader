@@ -10,15 +10,15 @@ Create a real, discoverable home for every area below. The requirement is the co
 |---|---|---|
 | Methodology rules and navigation | AGENTS.md and README.md | Lead; stable project rules, applicable protocol entry, run/use and knowledge entry points |
 | Six professional responsibilities and task access | docs/TEAM.md, roles/, and actual task links in the overview | Lead; distinguish responsibilities from live tasks |
-| Product agreement | docs/PRODUCT.md | Product; effective scope, business rules, flows, and experience direction |
-| Technical agreement | docs/TECHNICAL.md | Technical; architecture, data, interfaces, environment, rationale |
+| Product agreement | docs/PRODUCT.md | Product; intended understanding or action, effective scope, rules, and experience direction |
+| Technical agreement | docs/TECHNICAL.md | Technical; reliable methods, evidence requirements, relevant architecture, data, interfaces, environment, and rationale |
 | Acceptance agreement | docs/ACCEPTANCE.md | Product meaning with technical and independent reviewer contributions |
 | Work items, progress, blockers, and next actions | PROGRESS.md; BLOCKED.md or a clear overview section | Lead; outcomes, relevant dependencies, responsibility, state, usable entries |
 | Requirements changes and important decisions | reports/ or an existing issue/decision record | Responsible role with lead coordination; reason, authority, affected contracts, supersession |
-| Development and verification evidence | reports/ or existing task/evidence records, linked to implementation versions | Implementer and reviewer; meaningful results, self-tests, independent findings, limits |
+| Production and verification evidence | reports/ or existing task/evidence records, linked to delivered versions | Producer and reviewer; meaningful results, self-checks, independent findings, limits |
 | Project experience and handoff | Stable entry: docs/METHODOLOGY.md; linked detail and handoff/current-state records | Contributors with lead stewardship; applicable lessons and recoverable continuity |
 
-Maintain one project map, normally in PROGRESS.md, with each area's actual file/section and responsible role. README.md and AGENTS.md point to that map. Keep actual task identities in one maintained overview, not copied into every role card.
+Maintain one project map, normally in PROGRESS.md, with each area's actual file/section and responsible role. Map the six responsibilities to actual deliverables under [Identity and authority](protocol.md#identity-and-authority); adapt template fields to that work rather than inventing software architecture for a research or service project. Preserve useful adopted methods and the current stage when arranging continuation. README.md and AGENTS.md point to that map. Keep actual task identities in one maintained overview, not copied into every role card.
 
 For projects adopting this workflow, keep the experience entry at `docs/METHODOLOGY.md` relative to the project root, directly linked from AGENTS.md and the authoritative overview. It holds concise current lessons with project/topic applicability or direct links to their sole authoritative details. Existing operations, habits, and decision records may remain details when the target requirements permit; preserve unique content and provenance without duplicate authorities. During authorized adoption or upgrade, create a missing lightweight entry and complete affected structure, rule, and navigation migration under [Lifecycle](protocol.md#lifecycle); a new index over obsolete rules or reading routes is not completion. An explicit user-requested location takes precedence and must be directly identified by both navigation entries. This standardizes experience discovery, not every document location; ordinary tasks do not restart adoption.
 

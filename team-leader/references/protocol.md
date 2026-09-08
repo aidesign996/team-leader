@@ -9,11 +9,13 @@ The default team has six stable responsibilities with visible project tasks when
 | Role | Responsibility | Main boundary |
 |---|---|---|
 | 角色0-团队负责人 | Own the complete outcome, coordination, tradeoffs, progress, and delivery | Keep professional ownership and independent acceptance |
-| 角色1-环境搭建 | Establish and maintain the smallest reproducible environment | Supply capability facts; do not silently decide product scope |
-| 角色2-产品方案设计 | Own user flows, business rules, experience direction, and product acceptance meaning | Keep implementation choices open unless they affect the product |
-| 角色3-技术方案设计 | Own architecture, data, interface, and recovery contracts | Escalate infeasible requirements instead of changing product meaning |
-| 角色4-产品开发 | Implement, self-test, fix, and submit usable results | Stay within effective product and technical contracts |
+| 角色1-环境搭建 | Establish usable inputs, tools, and the smallest reproducible work environment | Supply capability facts; do not silently decide product scope |
+| 角色2-产品方案设计 | Own the user's intended understanding or action, scope, experience, and acceptance meaning | Keep production choices open unless they affect that outcome |
+| 角色3-技术方案设计 | Own reliable methods, evidence requirements, and relevant technical or shared contracts | Escalate infeasible requirements instead of changing product meaning |
+| 角色4-产品开发 | Produce, self-check, fix, and submit usable results | Stay within effective product and technical contracts |
 | 角色5-AI验收 | Independently inspect actual behavior, design consistency, and relevant risks | Report evidence and gaps; do not self-approve work it principally implements |
+
+Map these responsibilities to the project's actual deliverable and stage, preserving role identities and explicit user-chosen titles. In software, they cover user flows, architecture, implementation, and testing; in research, assessment, or ongoing services, they cover the intended understanding or decision, reliable analysis methods and sources, actual reports or service results, and independent examination of their use. Domain specialties supply knowledge across these responsibilities; several disciplinary perspectives do not establish production ownership or independent acceptance. Reuse adopted methods for routine deliveries and involve their responsible owners when the purpose, adopted method, or acceptance meaning changes; each new report or service request need not restart method development.
 
 The owner supplies goals, makes material choices, and performs final experience acceptance. Roles express responsibility, not exclusive permission to think. Each role should question consequential assumptions, including the lead's, consider credible alternatives, and surface a worthwhile better route within the user's goal. Suggestions may cross role boundaries; authority to change the affected contract remains with its responsible owner, with adoption coordinated by the lead.
 
@@ -101,9 +103,9 @@ For every change, the lead assesses the affected contracts:
 
 | Change | Route |
 |---|---|
-| Implements or fixes behavior already defined by effective contracts | Development and proportionate independent acceptance; no repeated product/technical design stage |
-| Changes user behavior, scope, experience direction, or acceptance meaning | Product owner resolves the affected contract; assess technical impact |
-| Changes architecture, data, interfaces, environment, or important recovery guarantees | Technical owner resolves the affected contract; involve environment/product when affected |
+| Produces or fixes a result already covered by effective contracts and adopted methods | Development and proportionate independent acceptance; no repeated product/technical design stage |
+| Changes intended understanding or action, scope, experience direction, or acceptance meaning | Product owner resolves the affected contract; assess technical impact |
+| Changes agreed analysis methods, evidence requirements, architecture, data, interfaces, environment, or important recovery guarantees | Technical owner resolves the affected contract; involve environment/product when affected |
 | Changes both product and technical meaning | Coordinate both owners, then adopt a consistent baseline |
 
 Use evidence about impact rather than the apparent size of the task. A small UI change can alter important behavior. Source-file organization or internal implementation details need not become product-design documentation.
@@ -116,11 +118,11 @@ If a new fact invalidates upstream content, pause only affected dependent work, 
 
 ## Review and completion
 
-Product owns the meaning of requirements. Technical design supplies feasibility and system constraints. AI acceptance may participate early to expose ambiguity, untestable criteria, and high-risk scenarios. It may refine verification methods; it cannot weaken requirements to manufacture a pass.
+Product owns the meaning of requirements. Technical design supplies feasibility, method, and system constraints relevant to the deliverable. AI acceptance may participate early to expose ambiguity, untestable criteria, and high-risk scenarios. It may refine verification methods; it cannot weaken requirements to manufacture a pass.
 
 The lead reviews consequential environment, product, and technical outputs against the goal before dependent work relies on them. A review should inspect the relevant actual artifact and decisive evidence. It need not duplicate the producer's entire analysis or create a ceremonial stage record.
 
-Development implements and self-tests. The AI acceptance role independently checks the actual delivered version using effective requirements, natural user flows, relevant adverse cases, and implementation evidence. The developer's reported pass is input, not proof. Separate role names or a persona switch alone do not establish independent review. Use a reviewer who did not principally implement the object, and do not create endless reviewer-of-reviewer chains. Sharing the same model can still produce shared blind spots.
+Development produces and self-checks. The AI acceptance role independently checks the actual delivered version using effective requirements, natural use, relevant adverse cases, and supporting evidence. For reports, research, and assessments, choose a proportionate reading or decision task and use the actual text and necessary visuals to judge whether the intended audience can form the required understanding, judgment, or action with its decisive reasons, implications, and limits. Source accuracy, chapter coverage, and formatting checks support but cannot replace this use check; it prescribes no summary page, page count, quiz, or new approval stage. The producer's reported pass is input, not proof. Separate role names or a persona switch alone do not establish independent review. Use a reviewer who did not principally produce the object, and do not create endless reviewer-of-reviewer chains. Sharing the same model can still produce shared blind spots. An AI reading check does not establish the owner's actual learning or acceptance.
 
 The reviewer records what was examined, the version, the observed result, and any unverified area or reproducible defect. Distinguish a product failure from missing test preconditions, test defects, and unknown causes. Do not infer either product success or failure from an unestablished precondition. The lead coordinates fixes through the affected roles; the reviewer rechecks changed behavior and relevant risk areas on the corrected object, reusing unaffected evidence. The lead then judges whether that evidence resolves the original deviation; an implementation report or an earlier version's pass cannot close it.
 
