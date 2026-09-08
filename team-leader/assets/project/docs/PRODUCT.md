@@ -5,16 +5,16 @@ Maintain the effective user-facing agreement here. Record decisions and their so
 ## Outcome and scope
 
 - Owner's requested outcome and source:
-- Users, problem, core flows, and requested experience:
-- In-scope behavior and meaningful non-goals:
+- Users, problem, intended understanding or action, and requested experience:
+- In-scope outcomes or behavior and meaningful non-goals:
 - Important constraints, supported assumptions, and unresolved material choices:
 
 ## Behavior and acceptance
 
-| Requirement or flow | Effective behavior | Observable acceptance / source |
+| Requirement or use | Effective outcome or behavior | Observable acceptance / source |
 |---|---|---|
 
-Describe stable user-visible meaning. Implementation details that do not affect product behavior need not become product requirements. Link to [acceptance criteria](ACCEPTANCE.md).
+Describe stable user-visible meaning, including what a reader or service user needs to understand, decide, or do. Production details that do not affect that outcome need not become product requirements. Link to [acceptance criteria](ACCEPTANCE.md).
 
 ## Experience direction
 

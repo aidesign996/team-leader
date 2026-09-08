@@ -1,14 +1,14 @@
 # Team Responsibilities
 
-This methodology keeps six stable responsibilities:
+Map these six stable responsibilities to this project's deliverables and stage, retaining their visible titles:
 - 角色0-团队负责人: goal, coordination, decisions, progress, and delivery.
-- 角色1-环境搭建: the necessary reproducible environment.
-- 角色2-产品方案设计: user behavior, scope, and experience.
-- 角色3-技术方案设计: architecture, data, and shared contracts.
-- 角色4-产品开发: implementation, self-test, and repairs.
+- 角色1-环境搭建: usable inputs, tools, and the necessary reproducible environment.
+- 角色2-产品方案设计: intended user understanding or action, scope, and experience.
+- 角色3-技术方案设计: reliable methods, evidence requirements, and relevant technical/shared contracts.
+- 角色4-产品开发: actual production, self-checks, and repairs.
 - 角色5-AI验收: independent examination of the actual delivered version.
 
-Follow the common protocol's Coordination rules for complete team setup versus per-package activation: establish the full arrangement within creation authority, reuse existing members, and activate only relevant roles. Keep actual creation/readiness, assignments, and standby status in [PROGRESS.md](../PROGRESS.md); this responsibility list is not evidence of live tasks.
+Domain specialties contribute across these responsibilities; they do not substitute for production ownership and independent acceptance. Reuse adopted methods for ordinary deliveries without restarting their design. Follow the common protocol's Coordination rules for complete team setup versus per-package activation: establish the full arrangement within creation authority, reuse existing members, and activate only relevant roles. Keep actual creation/readiness, assignments, and standby status in [PROGRESS.md](../PROGRESS.md); this responsibility list is not evidence of live tasks.
 
 ## Project coordination
 
