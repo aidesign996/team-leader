@@ -2,15 +2,17 @@
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
-**Codex · Astra** | **v0.5.16** | **MIT**
+**Codex · Astra** | **v0.5.17** | **MIT**
 
-[Quick start](#start) · [How it works](#loop) · [Roles](#roles) · [Feedback](#feedback) · [Download the complete Skill](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.16/team-leader-0.5.16.zip)
+[Quick start](#start) · [How it works](#loop) · [Roles](#roles) · [Feedback](#feedback) · [Download the complete Skill](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip)
 
 **Does your AI project still need you to restate the goal, check the results, and prompt the next step?**
 
 I designed Team Leader to give ongoing coordination to an AI lead with explicit responsibilities. It organizes specialist work around your goal, examines the results, and coordinates corrections. Project files preserve agreed requirements, decisions, and progress so work can continue with context.
 
 It is intended for continuing projects that span product design, technical design, development, and review. Reducing the user's coordination burden is a design aim; broader evidence of outcomes is still needed.
+
+**New in 0.5.17:** The same responsibilities now map explicitly to research, assessments, reports, and ongoing services. Judge a report by what its reader can understand, decide, or do; accurate sources and tidy formatting support that result. Routine work reuses the methods already adopted. [Changes and verification](CHANGELOG.md).
 
 <a id="start"></a>
 
@@ -31,7 +33,7 @@ For team mode, add: “Please establish the complete team for this project and c
 <details>
 <summary>Need to install it manually?</summary>
 
-1. [Download the complete ZIP](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.16/team-leader-0.5.16.zip) and extract it.
+1. [Download the complete ZIP](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip) and extract it.
 2. Place the complete `team-leader` folder in your personal `~/.agents/skills/` or a project's `.agents/skills/`. There are 22 files including the MIT license. Do not copy only `SKILL.md`.
 3. Confirm that the Skill is readable in a new project conversation; restart Codex if it is not discovered. Back up custom modifications before upgrading and preserve project records.
 
@@ -70,7 +72,7 @@ Version 0.5.16 establishes all six responsibilities when team mode is chosen and
 - **Multi-role work can use substantial quota.** The lead typically starts at XHigh, selects specialist effort for the task, and manages context when supported. Actual settings follow user preferences and host capabilities.
 - **Simple tasks can remain solo.** Package integrity, extraction into a clean directory, and basic structure were checked. A complete first run on a new account, long-term correction, and quota savings have not been evaluated systematically.
 
-[Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.16)
+[Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.17)
 
 <a id="feedback"></a>
 
@@ -86,4 +88,4 @@ The website's English, Traditional Chinese, and Simplified Chinese editions use 
 
 ---
 
-The Team Leader Skill uses the [MIT License](team-leader/LICENSE), credited to AI Design 996. Article text and illustrations are separate. [Design references](https://github.com/aidesign996/ai-practice/blob/main/SOURCES.md)
+The Team Leader Skill uses the [MIT License](team-leader/LICENSE), credited to AI Design 996. Article text and illustrations are separate. [Design references](SOURCES.md)

@@ -2,15 +2,17 @@
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
-**Codex · Astra** ｜ **v0.5.16** ｜ **MIT**
+**Codex · Astra** ｜ **v0.5.17** ｜ **MIT**
 
-[快速上手](#start) · [设计原理](#loop) · [岗位分工](#roles) · [使用反馈](#feedback) · [下载完整 Skill](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.16/team-leader-0.5.16.zip)
+[快速上手](#start) · [设计原理](#loop) · [岗位分工](#roles) · [使用反馈](#feedback) · [下载完整 Skill](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip)
 
 **做 AI 项目时，你是否还要反复提醒目标、检查结果，再催下一步？**
 
 我设计了 Team Leader，把持续协调项目这件事交给一位职责明确的 AI 负责人：它围绕你的目标安排专业岗位，检查做出来的结果，并组织修正。已经确认的需求、决定和进度则保存到项目文件中，方便后续接着做。
 
 它面向需要持续迭代、跨产品设计、技术设计、开发和验证的项目。希望减少使用者反复转述和协调的负担；实际效果仍需要更多场景验证。
+
+**0.5.17 更新：** 六类职责明确适配研究、评审、报告和持续服务。检查一份报告时，要看读者能否据此理解问题、作出判断或采取行动；资料准确和排版完整为这个结果提供支持。日常工作复用已经采用的方法。[变更与验证范围](CHANGELOG.md)。
 
 <a id="start"></a>
 
@@ -31,7 +33,7 @@
 <details>
 <summary>工具不能直接安装？查看手动安装方法</summary>
 
-1. [下载完整 ZIP](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.16/team-leader-0.5.16.zip)并解压。
+1. [下载完整 ZIP](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip)并解压。
 2. 将完整的 `team-leader` 文件夹放到个人 `~/.agents/skills/`，或项目的 `.agents/skills/` 中。完整包共22个文件，包含 MIT 许可，不要只复制 `SKILL.md`。
 3. 在新项目对话中确认能读取 Skill；若未发现，重启 Codex。升级前备份已有自定义修改，并保留项目记录。
 
@@ -70,7 +72,7 @@
 - **可能消耗较多额度。** 负责人通常从 XHigh 起步，按任务安排专业岗位推理级别，并在工具支持时整理上下文；实际设置遵循用户偏好和工具能力。
 - **简单任务可以保持单人。** 当前已检查包完整性、干净目录解压与基础结构；新账号完整首次运行、长期自主纠偏和节省额度尚未系统验证。
 
-[阅读完整设计文章（GitHub）](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.md) · [查看版本说明与校验文件](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.16)
+[阅读完整设计文章（GitHub）](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.md) · [查看版本说明与校验文件](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.17)
 
 <a id="feedback"></a>
 
@@ -86,4 +88,4 @@
 
 ---
 
-Team Leader Skill 采用 [MIT 许可](team-leader/LICENSE)，署名 AI Design 996。文章与配图单独提供。[设计参考](https://github.com/aidesign996/ai-practice/blob/main/SOURCES.md)
+Team Leader Skill 采用 [MIT 许可](team-leader/LICENSE)，署名 AI Design 996。文章与配图单独提供。[设计参考](SOURCES.md)
