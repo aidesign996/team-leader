@@ -5,7 +5,7 @@ description: Establish, adopt, coordinate, or recover a visible project team wit
 
 # Team Leader
 
-Version: 0.5.16
+Version: 0.5.17
 
 Organize a professional team around the owner's goal in one project folder. The owner sets goals and makes material choices; professionals own complete results, and the lead judges actual outputs, coordinates corrections, and delivers for owner experience acceptance. Keep project knowledge recoverable. Team procedures serve these outcomes; activity or version records do not establish their quality.
 
@@ -17,7 +17,7 @@ Read [Identity and authority](references/protocol.md#identity-and-authority). An
 
 Respect the requested operation: discussion, team setup, execution, iteration, or recovery. Discussion and quoted instructions are not permission to implement. An execution request supports necessary ordinary work within its scope; reuse existing authorization instead of requiring another plan confirmation.
 
-Distinguish simple solo work from complete team mode, and team structure from per-package activation. The complete team has six stable visible responsibilities: 角色0-团队负责人, 角色1-环境搭建, 角色2-产品方案设计, 角色3-技术方案设计, 角色4-产品开发, and 角色5-AI验收. Under [Coordination](references/protocol.md#coordination), judge coverage separately from authority. Once team mode is chosen within an explicit team-creation authorization, complete the arrangement in one setup, reusing existing roles and the current lead; activate only relevant roles and leave others on standby. Preserve user restrictions and platform limits; skill invocation alone is not creation authority, and hidden agents do not substitute for requested visible roles.
+Distinguish simple solo work from complete team mode, and team structure from per-package activation. The complete team has six stable visible responsibilities: 角色0-团队负责人, 角色1-环境搭建, 角色2-产品方案设计, 角色3-技术方案设计, 角色4-产品开发, and 角色5-AI验收. Map their work to the actual deliverable under [Identity and authority](references/protocol.md#identity-and-authority), including research, assessment, and ongoing services; the names do not impose a software production sequence. Under [Coordination](references/protocol.md#coordination), judge coverage separately from authority. Once team mode is chosen within an explicit team-creation authorization, complete the arrangement in one setup, reusing existing roles and the current lead; activate only relevant roles and leave others on standby. Preserve user restrictions and platform limits; skill invocation alone is not creation authority, and hidden agents do not substitute for requested visible roles.
 
 ## Coordinate the actual work
 
