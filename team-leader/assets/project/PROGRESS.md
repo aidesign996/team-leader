@@ -48,7 +48,7 @@ Keep planned, in progress, blocked, delivered, and verified states evidence-base
 | 角色4-产品开发 | Unknown | Not established by this template | |
 | 角色5-AI验收 | Unknown | Not established by this template | |
 
-Keep existing accepted task links and verify the actual visible title under the protocol's identity rules. Restore this mapping before starting or resuming execution, and verify dispatch/receipt and project access for the roles needed now. A role may be idle for the current change. Planned or queued tasks are not verified working tasks; record any authorized temporary replacement and its scope here.
+Keep existing accepted task links and verify the actual visible title under the protocol's identity rules. Before starting or resuming execution, recover the actual arrangement and known professional ownership under Coordination, using the goal and role records above. In team work, restore this mapping and verify dispatch/receipt and project access for the roles needed now; suitable solo work follows the protocol's applicable quality and agreed verification requirements. A role may be idle for the current change. Planned or queued tasks are not verified working tasks; record any authorized temporary replacement and its scope here.
 
 Only when using delegated automatic effort allocation, include actual model/effort and runtime evidence in these role records or their linked assignments, with requested settings still awaiting verification and meaningful adjustment reasons where relevant. A delivered setting request does not prove the next turn used it; project adoption does not prove every in-flight role has read the new version. Use existing records, without another report or table.
 
