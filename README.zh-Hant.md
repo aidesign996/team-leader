@@ -2,9 +2,9 @@
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
-**Codex · Astra** ｜ **v0.5.17** ｜ **MIT**
+**Codex · Astra** ｜ **v0.5.18** ｜ **MIT**
 
-[快速上手](#start) · [設計原理](#loop) · [崗位分工](#roles) · [使用反饋](#feedback) · [下載完整 Skill](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip)
+[安裝最新版](#start) · [更新已安裝版本](#update) · [開始使用](#use) · [更新記錄](CHANGELOG.md) · [設計原理](#loop) · [反饋](#feedback)
 
 **做 AI 項目時，你是否還要反覆提醒目標、檢查結果，再催下一步？**
 
@@ -12,32 +12,50 @@
 
 它面向需要持續迭代、跨產品設計、技術設計、開發和驗證的項目。希望減少使用者反覆轉述和協調的負擔；實際效果仍需要更多場景驗證。
 
-**0.5.17 更新：** 六類職責明確適配研究、評審、報告和持續服務。檢查一份報告時，要看讀者能否據此理解問題、作出判斷或採取行動；資料準確和排版完整為這個結果提供支持。日常工作複用已經採用的方法。[變更與驗證範圍](CHANGELOG.md)。
+**當前正式版：[0.5.18](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-09。** 優先交給已有專業負責人承接，包括跨項目；合適的單人任務與完整可見團隊各按實際安排工作。[變化與升級要求](CHANGELOG.md)。
 
 <a id="start"></a>
 
-## 兩步開始使用
+## 安裝最新版
 
-**1. 把這句話交給能夠聯網和安裝 Skill 的 AI 工具：**
+把下面這句話交給支持聯網和文件操作的 AI 工具：
 
-> 請閱讀 <https://github.com/aidesign996/team-leader>，幫我安裝其中完整的 Team Leader Skill。
+> 請閱讀 https://github.com/aidesign996/team-leader/blob/main/README.zh-Hant.md，從 https://github.com/aidesign996/team-leader/releases/latest 核對最新正式發佈，下載該版本的完整 Team Leader Skill 並安裝。完成後告訴我實際安裝的版本。
 
-**2. 安裝後，在項目對話中選中 Team Leader，或點名 `$team-leader`，然後說：**
+工具需要能安裝和讀取 Skill；涉及權限或設置時，按提示完成。默認取正式發行的完整 ZIP，不直接使用開發分支，也不要只複製 `SKILL.md`。
+
+<details>
+<summary>手動安裝：展開查看</summary>
+
+1. 打開[最新正式發行](https://github.com/aidesign996/team-leader/releases/latest)，在 Assets 中下載 `team-leader-版本號.zip`，解壓得到完整的 `team-leader` 文件夾。
+2. 個人使用放到 `~/.agents/skills/`；只供當前項目使用則放到項目的 `.agents/skills/`。保留方法參考、模板與相對路徑，不要額外套一層同名文件夾。
+3. 在項目對話中選中 Team Leader，或點名 `$team-leader`，確認它能讀取 `SKILL.md` 中的版本。未發現時重新打開對話或重啟 Codex。本版公開包包含21個 Skill 文件和1個 MIT 許可證。
+
+</details>
+
+<a id="update"></a>
+
+## 已經裝過，怎麼更新？
+
+**發佈新版，不會自動替換你已經安裝的 Skill。**
+
+> 請核對 Team Leader 的最新正式發佈。先備份舊技能包和自定義修改，再更新完整 Skill；保留項目資料、已確認決定和未完成任務。更新後核對本地版本，讓原負責人讀取適用變化，接著原來的目標做。
+
+從正式發行頁查看本地版本之後的[更新記錄](CHANGELOG.md)，尤其留意使用影響和升級要求。不要直接覆蓋自己的改動；需要保留的內容應先比較再合併。安裝版本與項目實際採用的規則可以暫時不同，完成遷移後再記錄。
+
+<a id="use"></a>
+
+## 裝好後，一句話交代項目
+
+在項目對話中選中 Team Leader，或先點名 `$team-leader`，然後說：
 
 > 接下來這個項目由你負責，你跟進一下。
 
-按照這套方法，負責人應先讀取現有資料和目標；缺少關鍵需求時主動問你，明確後繼續推進。你可以像向團隊負責人交代工作一樣，逐步補充想法。首次選中 Skill 很重要，短句本身不保證所有工具都能自動發現技能。
+負責人應先找回目標、已有資料和未完成工作，再安排下一步。缺少關鍵需求時主動問你；你可以繼續補充想法，討論怎樣把結果做好。
 
-希望採用團隊模式時，再補一句：“請為這個項目建立完整團隊，由你負責協調。”實際建隊取決於工具支持和你的授權，已有崗位會複用。
+**已有合適的專業負責人，就優先找他承接，包括其他項目的負責人。**
 
-<details>
-<summary>工具不能直接安裝？查看手動安裝方法</summary>
-
-1. [下載完整 ZIP](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip)並解壓。
-2. 將完整的 `team-leader` 文件夾放到個人 `~/.agents/skills/`，或項目的 `.agents/skills/` 中。完整包共22個文件，包含 MIT 許可，不要只複製 `SKILL.md`。
-3. 在新項目對話中確認能讀取 Skill；若未發現，重啟 Codex。升級前備份已有自定義修改，並保留項目記錄。
-
-</details>
+跨項目協作需要工具支持負責人之間通信，並允許訪問任務所需資料。需要新建團隊時，可以明確說：“請為這個項目建立完整團隊，由你負責協調。”獲得授權後補齊六類可見職責，每輪只調動有關崗位；合適的單人任務可以完整交付，已有專業歸屬仍應保留。
 
 <a id="loop"></a>
 
@@ -62,7 +80,7 @@
 | **4 · 開發** | 實現、自查與修正。 |
 | **5 · 獨立 AI 驗收** | 由未參與該項製作的角色檢查結果。 |
 
-0.5.16 在採用團隊模式且獲得授權後補齊六類職責；每輪按任務需要調動相關崗位。負責人還會組織項目文檔，讓需求、產品方案、技術方案、進度和經驗各有可查找的位置。記錄需要在後續任務中主動讀取和應用，保存文件本身不等於自動記住。
+採用團隊模式且獲得授權後補齊六類可見職責，每輪只調動相關崗位。這些職責也適配研究、評審、報告與持續服務，按實際成果用途分工。負責人還會組織項目文檔，讓需求、產品方案、技術方案、進度和經驗各有可查找的位置。記錄需要在後續任務中主動讀取和應用，保存文件本身不等於自動記住。
 
 <a id="fit"></a>
 
@@ -72,7 +90,7 @@
 - **可能消耗較多額度。** 負責人通常從 XHigh 起步，按任務安排專業崗位推理級別，並在工具支持時整理上下文；實際設置遵循用戶偏好和工具能力。
 - **簡單任務可以保持單人。** 當前已檢查包完整性、乾淨目錄解壓與基礎結構；新賬號完整首次運行、長期自主糾偏和節省額度尚未系統驗證。
 
-[閱讀完整設計文章（GitHub）](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.zh-Hant.md) · [查看版本說明與校驗文件](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.17)
+[閱讀完整設計文章（GitHub）](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.md) · [查看版本說明與校驗文件](https://github.com/aidesign996/team-leader/releases/latest)
 
 <a id="feedback"></a>
 

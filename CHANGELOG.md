@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.5.18 — 2026-09-09
+
+**Current formal release / 当前正式版：[v0.5.18](https://github.com/aidesign996/team-leader/releases/latest)**
+
+### What changed
+
+- Proactively route work to an appropriate existing visible professional owner, including another project's lead. Keep the initiating lead responsible for the overall goal, coordination, and delivery.
+- Distinguish suitable solo delivery from complete visible team mode. When a new team is necessary and authorized, establish its complete visible arrangement once and activate only relevant roles. The previous default hidden professional-supplement branch is removed.
+- Align recovery instructions and templates with these rules. Preserve design exploration, faithful implementation, non-software outcome review, permissions, user-selected settings, project knowledge, and unfinished work.
+
+### 使用影响
+
+已有合适的专业负责人时，应主动交给他承接，而不是由发起负责人自行包办。跨项目取材和负责人直接沟通的用法保持适用，但需要真实通信能力、访问权限和可找到的目标负责人。简单且适合单人的任务可以完整交付；需要新团队时，按授权建立完整可见职责安排，不用默认的后台专业补充代替。
+
+### Upgrade / 升级要求
+
+Back up the old Skill and custom changes, update the complete package, and verify the installed version. Have the original lead compare relevant changes, preserve existing project records, authority and work in progress, migrate affected instructions, then continue the original task. No model switch or new runtime dependency is required. Updating a web page or installing the Skill does not establish adoption in every project.
+
+先备份旧包和自定义修改，更新完整文件夹并核对本地版本，再让原负责人读取新版、比较并迁移适用规则，保留目标、资料、有效决定和继续点。网页更新不会自动更新本地 Skill；项目采用需实际接续。
+
+### Verification / 验证范围
+
+The maintainer completed basic validation, 67 relative-link checks, an independent reading with 10 categories of semantic counterexamples, five isolated installer checks, and local installation. The publisher separately checks source, ZIP, manifest, and installed-file equality. There are 21 Skill files, seven changed in this release, plus the public MIT license.
+
+这些检查不证明所有项目已采用、自动建队成功率、长期自主效果、最大性能或额度收益。历史文章中的旧版本案例保留原验证范围。
+
+ZIP SHA-256: `23af6046bbd48de6f120de9a04525ac663bae68b9bd82b7571671975b9f27c4a`
+
+Manifest SHA-256: `d0948aff129a12a01587542c27218bba0d91c4c6063f67df9644b30288553e6a`
+
 ## 0.5.17 — 2026-09-09
 
 Research, assessments, reports, and ongoing services can use the same six responsibilities, mapped to the deliverable. Routine work reuses adopted methods instead of restarting method design for every request.

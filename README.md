@@ -2,9 +2,9 @@
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
-**Codex · Astra** | **v0.5.17** | **MIT**
+**Codex · Astra** | **v0.5.18** | **MIT**
 
-[Quick start](#start) · [How it works](#loop) · [Roles](#roles) · [Feedback](#feedback) · [Download the complete Skill](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip)
+[Install latest](#start) · [Update](#update) · [Use](#use) · [Change history](CHANGELOG.md) · [How it works](#loop) · [Feedback](#feedback)
 
 **Does your AI project still need you to restate the goal, check the results, and prompt the next step?**
 
@@ -12,32 +12,50 @@ I designed Team Leader to give ongoing coordination to an AI lead with explicit 
 
 It is intended for continuing projects that span product design, technical design, development, and review. Reducing the user's coordination burden is a design aim; broader evidence of outcomes is still needed.
 
-**New in 0.5.17:** The same responsibilities now map explicitly to research, assessments, reports, and ongoing services. Judge a report by what its reader can understand, decide, or do; accurate sources and tidy formatting support that result. Routine work reuses the methods already adopted. [Changes and verification](CHANGELOG.md).
+**Current formal release: [0.5.18](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-09.** Reuse existing professional owners first, including across projects. Suitable solo work and complete visible teams remain distinct arrangements. [Changes and upgrade requirements](CHANGELOG.md).
 
 <a id="start"></a>
 
-## Start in two steps
+## Install the latest release
 
-**1. Give this instruction to an AI tool that can access the web and install Skills:**
+Give this instruction to an AI tool with web and file access:
 
-> Please read https://github.com/aidesign996/team-leader and help me install the complete Team Leader Skill from it.
+> Read https://github.com/aidesign996/team-leader, check the latest stable release at https://github.com/aidesign996/team-leader/releases/latest, and install its complete Team Leader Skill package. Tell me the version actually installed.
 
-**2. After installation, select Team Leader or mention `$team-leader` in your project conversation. Then say:**
+The host must support installing and reading Skills. Complete any required permissions or settings when prompted. Use the formal release ZIP, not the development branch or only `SKILL.md`.
+
+<details>
+<summary>Manual installation</summary>
+
+1. Open the [latest formal release](https://github.com/aidesign996/team-leader/releases/latest). Under Assets, download `team-leader-VERSION.zip` and extract the complete `team-leader` folder.
+2. Put it in your personal `~/.agents/skills/` or the project's `.agents/skills/`, preserving references, templates, and relative paths. Avoid an extra nested folder.
+3. Select Team Leader or mention `$team-leader` in a project conversation. Confirm that it can read the version in `SKILL.md`; reopen the conversation or restart Codex if it is not discovered. This release includes 21 Skill files and an MIT license.
+
+</details>
+
+<a id="update"></a>
+
+## Already installed? Update it explicitly
+
+**Publishing a release does not automatically update your installed Skill.**
+
+> Check Team Leader's latest formal release. Back up the old package and custom changes, then update the complete Skill. Preserve project records, accepted decisions, and unfinished work. Check the installed version, have the existing lead adopt relevant changes, and continue toward the original goal.
+
+Read the [change history](CHANGELOG.md) since your installed version, including impact and upgrade requirements. Compare custom changes before merging them. Installation and the rules actually adopted by a project are separate states; record adoption after migration.
+
+<a id="use"></a>
+
+## Hand over the project in one sentence
+
+Select Team Leader or mention `$team-leader` in your project conversation, then say:
 
 > You're in charge of this project now. Please take it forward.
 
-The lead should read the existing context and goal, ask about essential missing requirements, and proceed with clear, authorized work. Share your ideas as the conversation develops. Select the Skill first: the sentence alone does not guarantee discovery in every tool.
+The lead should recover the goal, existing context, and unfinished work, then arrange the next step. It asks for essential missing requirements while you focus on making the result better.
 
-For team mode, add: “Please establish the complete team for this project and coordinate its work.” Team creation depends on the host's tools and your authorization; existing roles are reused.
+**Reuse an appropriate existing professional owner, including a lead in another project.**
 
-<details>
-<summary>Need to install it manually?</summary>
-
-1. [Download the complete ZIP](https://github.com/aidesign996/team-leader/releases/download/team-leader-v0.5.17/team-leader-0.5.17.zip) and extract it.
-2. Place the complete `team-leader` folder in your personal `~/.agents/skills/` or a project's `.agents/skills/`. There are 22 files including the MIT license. Do not copy only `SKILL.md`.
-3. Confirm that the Skill is readable in a new project conversation; restart Codex if it is not discovered. Back up custom modifications before upgrading and preserve project records.
-
-</details>
+Cross-project work requires communication tools and access to the necessary materials. When a new team is needed, ask: “Please establish the complete team for this project and coordinate its work.” With authorization, establish six visible responsibilities and activate those needed for each task. Suitable solo work can deliver a complete result; existing professional ownership remains in place.
 
 <a id="loop"></a>
 
@@ -62,7 +80,7 @@ The lead coordinates who does the work and keeps checking whether it advances th
 | **4 · Development** | Build, self-check, and correct. |
 | **5 · Independent AI review** | Check results through a role that did not produce that work. |
 
-Version 0.5.16 establishes all six responsibilities when team mode is chosen and authorized, then activates the roles needed for each task. The lead also organizes requirements, product and technical decisions, progress, and experience into findable project documents. Records must be read and applied in later work; saving them alone is not automatic memory.
+In team mode, establish all six visible responsibilities when authorized, then activate the roles needed for each task. Map these responsibilities to the actual deliverable, including research, assessments, reports, and services. The lead also organizes requirements, product and technical decisions, progress, and experience into findable project documents. Records must be read and applied in later work; saving them alone is not automatic memory.
 
 <a id="fit"></a>
 
@@ -72,7 +90,7 @@ Version 0.5.16 establishes all six responsibilities when team mode is chosen and
 - **Multi-role work can use substantial quota.** The lead typically starts at XHigh, selects specialist effort for the task, and manages context when supported. Actual settings follow user preferences and host capabilities.
 - **Simple tasks can remain solo.** Package integrity, extraction into a clean directory, and basic structure were checked. A complete first run on a new account, long-term correction, and quota savings have not been evaluated systematically.
 
-[Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.17)
+[Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/latest)
 
 <a id="feedback"></a>
 
