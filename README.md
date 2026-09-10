@@ -2,7 +2,7 @@
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
-**Codex · Astra** | **v0.5.18** | **MIT**
+**Codex · Astra** | **v0.5.23** | **MIT**
 
 [Install latest](#start) · [Update](#update) · [Use](#use) · [Change history](CHANGELOG.md) · [How it works](#loop) · [Feedback](#feedback)
 
@@ -12,7 +12,7 @@ I designed Team Leader to give ongoing coordination to an AI lead with explicit 
 
 It is intended for continuing projects that span product design, technical design, development, and review. Reducing the user's coordination burden is a design aim; broader evidence of outcomes is still needed.
 
-**Current formal release: [0.5.18](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-09.** Reuse existing professional owners first, including across projects. Suitable solo work and complete visible teams remain distinct arrangements. [Changes and upgrade requirements](CHANGELOG.md).
+**Current formal release: [0.5.23](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-10.** Keep user goals authoritative, distinguish effective requirements from adjustable experience, compare case conditions, and improve decisions from results. [Changes and upgrade requirements](CHANGELOG.md).
 
 <a id="start"></a>
 
@@ -49,7 +49,7 @@ Read the [change history](CHANGELOG.md) since your installed version, including 
 
 Select Team Leader or mention `$team-leader` in your project conversation, then say:
 
-> You're in charge of this project now. Please take it forward.
+> Please take responsibility for this and keep it moving. Retain useful experience as we go; when something similar comes up, look it up and consider how to use it.
 
 The lead should recover the goal, existing context, and unfinished work, then arrange the next step. It asks for essential missing requirements while you focus on making the result better.
 
@@ -67,13 +67,19 @@ The design draws on balancing feedback in *Thinking in Systems*. The user define
 
 The lead coordinates who does the work and keeps checking whether it advances the goal. Early work can explore alternatives before converging against the goal and constraints. A lead alone does not guarantee stability: observations, feedback timing, and completed corrections matter.
 
+## Let experience inform the next decision
+
+“Make this easy to read” is the goal; paragraph breaks and bold text are possible methods. If the next page is full of bold text, the lead should compare conditions and may reduce emphasis instead. Retain the goal, conditions, reasons, and actual results so experience supports a new judgment. This is an illustrative comparison, not an outcome experiment.
+
+**Goals and effective requirements remain authoritative; old cases can change.** Refine the original experience when results add something useful. This is not model retraining or a guarantee of long-term omission-free behavior.
+
 <a id="roles"></a>
 
 ## One lead, five specialist responsibilities
 
 | Role | Responsibility |
 | --- | --- |
-| **0 · Team Leader** | Maintain the goal, assign work, identify gaps, and coordinate delivery. |
+| **0 · Team Leader** | Organize work around the user goal, identify gaps, and coordinate delivery. |
 | **1 · Environment setup** | Prepare and check reproducible working conditions. |
 | **2 · Product design** | Clarify needs, workflows, and user experience. |
 | **3 · Technical design** | Define architecture, interfaces, and implementation boundaries. |
@@ -87,7 +93,7 @@ In team mode, establish all six visible responsibilities when authorized, then a
 ## Fit and effort
 
 - **Primarily designed around Astra in Codex.** Sol has some specialist-role experience, but there is no comparable evaluation of a complete Sol team.
-- **Multi-role work can use substantial quota.** The lead typically starts at XHigh, selects specialist effort for the task, and manages context when supported. Actual settings follow user preferences and host capabilities.
+- **Multi-role work can use substantial quota.** Explicit user model and effort choices come first. When automatic allocation is authorized, the lead usually starts at high; specialist effort follows complexity and checks stay proportionate to actual risks.
 - **Simple tasks can remain solo.** Package integrity, extraction into a clean directory, and basic structure were checked. A complete first run on a new account, long-term correction, and quota savings have not been evaluated systematically.
 
 [Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/latest)

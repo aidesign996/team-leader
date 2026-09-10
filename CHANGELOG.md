@@ -1,8 +1,38 @@
 # Changelog
 
+## 0.5.23 — 2026-09-10
+
+**Current formal release / 当前正式版：[v0.5.23](https://github.com/aidesign996/team-leader/releases/latest)**
+
+This release includes the changes developed in 0.5.19–0.5.23 since the previous public release, 0.5.18.
+
+### What changed / 变化与使用影响
+
+- Start from the user's overall goal and core choices, then the role's contribution. Responsibility for delivery does not grant authority to redefine success. 岗位贡献服务用户目标，不把交付责任误写成目标决策权。
+- Effective requirements must be carried out within their scope and remain recoverable. Optional methods and cases are selected for their value to the current goal. 明确要求不能因为“以后没用”而丢掉；案例经验则允许调整。
+- Retrieve experience by the meaning of the problem, compare conditions and reasons, and refine the original case from actual results. Correct current work when needed. 按问题含义查找经验、比较条件，结果同时用于改好当前工作与修订经验。
+- When automatic effort allocation is authorized, high is the usual lead starting point rather than the old xhigh default. User-selected settings still take priority. Judge the complete result and key risks; reuse sound evidence for unchanged, similar low-risk details. 投入与验证按实际成果和风险安排。
+- Keep current work continuous during bounded recovery and adoption. Installing or reading a new version is not itself project adoption or completed business work. 接续保留有效约定、成果和未完成任务。
+
+### Upgrade / 升级
+
+Back up the old package and custom changes, update the complete Skill, and check the installed version. The existing lead should read relevant changes, reconcile affected project instructions, preserve goals and unfinished work, and continue. No model switch or new runtime dependency is required.
+
+备份旧包与自定义修改后更新完整技能；由原负责人比较适用变化、保留目标及有效要求，并继续原来的工作。公开发行不会自动更新所有本地安装或项目。
+
+### Verification / 验证范围
+
+The frozen public package contains 21 Skill files plus MIT LICENSE. The publisher checks equality with the ZIP and manifest. The maintainer checked four file-based scenarios and adoption by five project leads, including two cases completed after reminders. These checks do not establish blind real-world success, autonomous omission-free behavior, long-term gains, or overall quota savings.
+
+维护方的文件情境和五项目接续证据有上述边界；历史案例继续按当时版本与范围说明。三篇实践文章现整合为一篇综合设计文章，并保留教学情境与实际取材的区别。
+
+ZIP SHA-256: `8035ef4f8c08b2a52995a1a83d2171dbe9fed511877051e1ff901cfe124ff027`
+
+Manifest SHA-256: `a1e9950fd4e1abc8150102ca066fa827ee61a4f2b24ddc127251ae8949dbd966`
+
 ## 0.5.18 — 2026-09-09
 
-**Current formal release / 当前正式版：[v0.5.18](https://github.com/aidesign996/team-leader/releases/latest)**
+**Historical release / 历史发行：[v0.5.18](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.18)**
 
 ### What changed
 

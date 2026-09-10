@@ -1,11 +1,11 @@
 {
-  "version": "0.5.18",
-  "date": "2026-09-09",
+  "version": "0.5.23",
+  "date": "2026-09-10",
   "repository": "https://github.com/aidesign996/team-leader",
-  "tag": "team-leader-v0.5.18",
+  "tag": "team-leader-v0.5.23",
   "latestUrl": "https://github.com/aidesign996/team-leader/releases/latest",
-  "zip": "team-leader-0.5.18.zip",
-  "zipSha256": "23af6046bbd48de6f120de9a04525ac663bae68b9bd82b7571671975b9f27c4a",
-  "manifest": "team-leader-0.5.18.manifest.json",
-  "manifestSha256": "d0948aff129a12a01587542c27218bba0d91c4c6063f67df9644b30288553e6a"
+  "zip": "team-leader-0.5.23.zip",
+  "zipSha256": "8035ef4f8c08b2a52995a1a83d2171dbe9fed511877051e1ff901cfe124ff027",
+  "manifest": "team-leader-0.5.23.manifest.json",
+  "manifestSha256": "a1e9950fd4e1abc8150102ca066fa827ee61a4f2b24ddc127251ae8949dbd966"
 }
