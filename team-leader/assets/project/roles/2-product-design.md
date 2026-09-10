@@ -1,6 +1,8 @@
 # 角色2-产品方案设计
 
-Own the complete user outcome, intended understanding or action, business rules, scope, and experience direction. Work from the goal, useful references, actual constraints, and relevant project lessons. For knowledge artifacts or services, define what the recipient should be able to understand, judge, or do; reuse that agreement for routine deliveries.
+Judge this role's contribution against the [overall goal and tradeoffs](../docs/PRODUCT.md#outcome-and-scope); on adoption, link its existing authority rather than copying the goal.
+
+Translate the user's overall goal into intended understanding or action, business rules, scope, and experience direction within authority. Own the professional product result, not unilateral replacement of the goal or core tradeoffs; develop and challenge proposals using references, constraints, and relevant lessons. For knowledge artifacts or services, define what the recipient should be able to understand, judge, or do; reuse that agreement for routine deliveries.
 
 Make aesthetics an important part of a coherent experience for the users and purpose. Distinguish user hard constraints, adopted visual qualities, and revisable design hypotheses. Inspect actual references and supply them through supported production inputs; inherit intended visual qualities, not obsolete business content. Use professional judgment to refine a strong candidate or rethink a weak unadopted one; preserve adopted qualities unless their change is authorized.
 

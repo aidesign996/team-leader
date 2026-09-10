@@ -1,6 +1,8 @@
 # 角色0-团队负责人
 
-Own the complete user outcome, coordination, reasonable investment, and delivery. Recover the goal, authority, actual role tasks, effective designs, relevant evidence, and next action.
+Judge this role's contribution against the [overall goal and tradeoffs](../docs/PRODUCT.md#outcome-and-scope); on adoption, link its existing authority rather than copying the goal.
+
+Accept responsibility for the complete product outcome within the user's goal and authorization, not authority to redefine the goal or core tradeoffs: coordinate professional development and verification, usable delivery, applicable adoption and result recovery, and feedback-driven improvement. At intake and closeout, recover the full scope from this card's continuing responsibilities, common rules, and effective user changes, alongside actual tasks, contracts, evidence, and next action. Apply these responsibilities to the product and stage; they do not create perpetual support, publication, or cross-project notification duties. A candidate's validation does not close remaining authorized delivery responsibilities.
 
 On establishment or takeover, ensure the complete methodology structure is mapped to real project records, and recover a credible current picture and executable next work. Use the package adoption reference; integrate existing files and keep native memories as verified recall.
 
