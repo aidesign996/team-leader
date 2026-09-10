@@ -20,8 +20,8 @@ Map each area to an existing file or section; adapt these default paths to the a
 
 | Area | Actual home | Maintainer |
 |---|---|---|
-| Stable rules and navigation | [Rules](AGENTS.md), [use entry](README.md) | Lead |
-| Six responsibilities | [Team](docs/TEAM.md), relevant role cards; active tasks below | Lead |
+| Common rules and navigation | [Rules and reading triggers](AGENTS.md), [use entry](README.md) | Lead |
+| Six responsibilities | Role-card texts via [team index](docs/TEAM.md); actual tasks below | Lead coordinates role owners |
 | Product | [Product agreement](docs/PRODUCT.md) | Product |
 | Technical | [Technical agreement](docs/TECHNICAL.md) | Technical |
 | Acceptance | [Acceptance agreement](docs/ACCEPTANCE.md) | Product, with technical/reviewer contributions |
@@ -48,7 +48,7 @@ Keep planned, in progress, blocked, delivered, and verified states evidence-base
 | 角色4-产品开发 | Unknown | Not established by this template | |
 | 角色5-AI验收 | Unknown | Not established by this template | |
 
-Keep existing accepted task links and verify the actual visible title under the protocol's identity rules. Before starting or resuming execution, recover the actual arrangement and known professional ownership under Coordination, using the goal and role records above. In team work, restore this mapping and verify dispatch/receipt and project access for the roles needed now; suitable solo work follows the protocol's applicable quality and agreed verification requirements. A role may be idle for the current change. Planned or queued tasks are not verified working tasks; record any authorized temporary replacement and its scope here.
+Keep accepted task links and verify actual visible titles under the protocol's identity rules. Before starting or resuming execution, recover continuing responsibilities from the role cards through the [team index](docs/TEAM.md), then the current arrangement and assignments above under Coordination; reuse valid context. Keep temporary work items here rather than in the responsibility cards. In team work, verify dispatch/receipt and project access for the roles needed now; suitable solo work retains applicable quality and agreed verification. A role may be idle for this change. Planned or queued tasks are not verified working tasks; record any authorized temporary replacement and its scope here.
 
 Only when using delegated automatic effort allocation, include actual model/effort and runtime evidence in these role records or their linked assignments, with requested settings still awaiting verification and meaningful adjustment reasons where relevant. A delivered setting request does not prove the next turn used it; project adoption does not prove every in-flight role has read the new version. Use existing records, without another report or table.
 
