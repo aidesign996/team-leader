@@ -2,7 +2,7 @@
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
-**Codex · Astra** | **v0.5.23** | **MIT**
+**Codex · Astra** | **v0.5.24** | **MIT**
 
 [Install latest](#start) · [Update](#update) · [Use](#use) · [Change history](CHANGELOG.md) · [How it works](#loop) · [Feedback](#feedback)
 
@@ -20,7 +20,7 @@ Together, these support complete delivery across continuing projects, research, 
 
 [Read the complete design article: collaboration, feedback, and experience](https://aidesign996.github.io/ai-practice/article-team-leader.html)
 
-**Current formal release: [0.5.23](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-10.** Keep user goals authoritative, distinguish effective requirements from adjustable experience, compare case conditions, and improve decisions from results. [Changes and upgrade requirements](CHANGELOG.md).
+**Current formal release: [0.5.24](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-11.** Recover actual unfinished work, bring case conditions into real decisions, reuse valid authorization, and check the complete result after changes. [Changes and upgrade requirements](CHANGELOG.md).
 
 <a id="start"></a>
 
@@ -78,7 +78,11 @@ The design draws on feedback in *Thinking in Systems*. The two loops have differ
 
 <p align="center"><img src="assets/loop.en.png" width="470" alt="Balancing feedback: the lead compares goals and results, coordinates specialist corrections, and checks again."></p>
 
-The diagram above shows balancing feedback. The [reinforcing-loop diagram in the complete article](https://aidesign996.github.io/ai-practice/article-team-leader.html#figure-2) shows experience feeding directly into refinement and validation. These are working-method concepts, not a calibrated system dynamics model or evidence of automatic, continuous capability growth.
+The diagram above shows balancing feedback: it helps close the gap between the goal and the result.
+
+<p align="center"><img src="assets/reinforcing.en.png" width="470" alt="R: accumulated experience feeds directly into refinement and validation, adding useful experience to the stock."></p>
+
+The reinforcing loop above serves a different purpose: accumulated experience informs refinement and validation, and newly established useful experience adds to that accumulation. Both are working-method concepts, not a calibrated system dynamics model or a claim of automatic capability growth.
 
 Early work can explore alternatives before selecting an implementation against goals and constraints. The lead needs to inspect real outputs; a completion report alone cannot establish that the goal has been met.
 
@@ -86,15 +90,31 @@ Early work can explore alternatives before selecting an implementation against g
 
 ## Let experience inform the next decision
 
-For a new task, recover the user goal, role responsibilities, and effective requirements before retrieving similar cases. Compare why the old choice was made and what differs now, then decide whether to reuse, adapt, or set aside the method.
+### Compare conditions before choosing an approach
 
-“Make this easy to read” is the goal; paragraph breaks and bold text are possible methods. If the next page is full of bold text, the lead may reduce emphasis instead. The same goal can lead to different actions. This illustrates a decision process, not an outcome experiment.
+Start a new task by recovering the user goal, role responsibilities, and effective requirements, then retrieve related cases. Compare why an earlier choice was made and what is different now; decide whether to reuse, adapt, or skip the old method.
 
-Rules and responsibilities live in existing entries such as `AGENTS.md` and `roles/`. Experience entries such as `docs/METHODOLOGY.md` link to cases with their conditions, reasons, and actual results. After the work, correct any remaining problems in the current output and update the original experience when something useful is learned.
+<p align="center"><img src="assets/experience.en.png" width="360" alt="Goals guide the choice; results return to current work and to the original case."></p>
 
-**Goals and effective requirements remain authoritative; old cases can change.** Saved records still need to be retrieved and applied. This is not model retraining or a guarantee of long-term omission-free behavior.
+The two return paths serve different purposes: **correct current work if the problem remains; refine the original experience when there is a new finding.** User feedback and the AI's actual attempts can both provide evidence. Unverified explanations remain hypotheses.
 
-<a id="roles"></a>
+For example, making an article easy to understand is the goal; paragraph breaks and bold text are possible methods. A buried point may need its own paragraph and a little emphasis. If almost everything is bold next time, less emphasis may help. The same goal can lead to different choices. This illustrates reasoning, rather than reporting an effectiveness experiment.
+
+### Give each kind of information a stable home
+
+The Skill specifies how to read and update knowledge; project files hold the content. Effective requirements and case experience have separate homes connected by references. The lead retrieves what is relevant to the current problem.
+
+<p align="center"><img src="assets/files.en.png" width="420" alt="Separate homes for shared rules, roles, agreements, experience, and current status."></p>
+
+`AGENTS.md`: shared rules and when to read related materials.<br>
+`roles/`: each role's responsibilities and contribution to the overall goal.<br>
+Product, technical, and acceptance documents: confirmed requirements and decisions.<br>
+`docs/METHODOLOGY.md`: an experience entry point linking methods, cases, and results.<br>
+`README.md`, `PROGRESS.md`, and equivalents: current status, unfinished work, and next steps.
+
+The diagram shows the supplied templates; existing projects can keep their own effective entry points. Cases retain conditions, reasons, actual results, and limits of applicability. Update the original record when new evidence arrives; unrelated or duplicate material need not become another entry.
+
+**Goals and effective requirements are binding; old cases can be adapted.** A one-time requirement applies to that task without automatically becoming a permanent rule. Saving files must be followed by actual retrieval, comparison, and use. This does not retrain the model or guarantee omission-free behavior over time.
 
 ## One lead, five specialist responsibilities
 

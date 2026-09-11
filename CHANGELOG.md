@@ -1,8 +1,39 @@
 # Changelog
 
+## 0.5.24 — 2026-09-11
+
+**Current formal release / 当前正式版：[v0.5.24](https://github.com/aidesign996/team-leader/releases/latest)**
+
+### What changed / 变化与使用影响
+
+- Recover the actual unfinished task, keeping completed, paused, and active work distinct. Resume authorized work after an interruption. 认准当前未完任务，插入问答后接回继续点，不把历史问题当成新请求。
+- Bring case conditions and reasons into real choices, handoffs, and result checks. Let actual results refine the original experience. 经验进入实际决定，无新收获不重复记录。
+- Resolve major open design choices using a concrete proposal and the actual decision authority. Reuse existing authorization; ordinary fixes do not need repeated approval. 重大未决整体选择先形成可审阅方案，充分委托内可自主决定，普通修正继续执行。
+- Reconsider the complete result when successive local fixes undermine it. Reuse valid context and unchanged checks while retaining meaningful acceptance. 累计修改后回看整体，复用有效上下文与检查，不以局部通过代替交付。
+
+The existing knowledge structure is preserved. Seven of 21 core Skill files changed; the public package adds the MIT license. No new runtime dependency or automatic model-setting change is introduced.
+
+保留原知识架构，21个核心文件中7个变化，公开包另含MIT许可。没有新增运行依赖，也不会自动改变模型或思考强度。
+
+### Upgrade / 升级
+
+Back up custom changes and update the complete package. Have the existing lead read the changes and reconcile affected project rules, responsibilities, and references. Active affected roles adopt at a safe boundary; idle roles can adopt when work resumes. Preserve completed, paused, and unfinished work. Replacing files on disk does not update every running task automatically.
+
+备份自定义修改，更新完整包，再让原负责人实读新版、有界迁移受影响的规则、职责和引用。在途受影响岗位安全接续，闲岗下次工作时采用。保留已完成、暂停和未完状态；磁盘更新不等于所有运行中任务自动获知。
+
+### Verification / 验证范围
+
+The maintainer independently reviewed the corrected candidate, checked four file-based scenarios and package/install equality, and confirmed bounded adoption by five project leads. These were non-blind synthetic scenarios, not long-term real-world or model-comparison experiments. Browser visuals and clicks were not verified in the Skill validation. Long-term omission prevention and net quota savings remain unproven.
+
+维护方已独立审阅修后候选，检查四组实际文件情境、包与安装一致性，并核对五位原负责人的适用采用。情境为非盲合成输入；Skill验证未覆盖浏览器视觉与点击，不证明长期防遗漏或净额度收益。说明页新增经验图属于本次发布材料，不改受验Skill字节。
+
+ZIP SHA-256: `1175f0e13fb18985911731161499aaf8a5aecd78b2e8adea6dbf8a90e3628c72`
+
+Manifest SHA-256: `05978c9941ec8cf0ad81bd3dbb53f4a05f40b579a8c1c0927575183fe643fa63`
+
 ## 0.5.23 — 2026-09-10
 
-**Current formal release / 当前正式版：[v0.5.23](https://github.com/aidesign996/team-leader/releases/latest)**
+**Historical release / 历史版本：[v0.5.23](https://github.com/aidesign996/team-leader/releases/tag/team-leader-v0.5.23)**
 
 This release includes the changes developed in 0.5.19–0.5.23 since the previous public release, 0.5.18.
 
