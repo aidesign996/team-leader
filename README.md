@@ -1,4 +1,4 @@
-![Team Leader: Give your AI project a lead to keep the team moving toward its goal](assets/cover.en.svg)
+![Team Leader: AI team collaboration, feedback, and experience](assets/cover.en.svg)
 
 [English](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-CN.md)
 
@@ -6,11 +6,19 @@
 
 [Install latest](#start) · [Update](#update) · [Use](#use) · [Change history](CHANGELOG.md) · [How it works](#loop) · [Feedback](#feedback)
 
-**Does your AI project still need you to restate the goal, check the results, and prompt the next step?**
+**Team Leader is an AI team working method packaged as a Skill. It organizes work around your goal, corrects results through feedback, connects project leads directly, and brings experience into the next decision.**
 
-I designed Team Leader to give ongoing coordination to an AI lead with explicit responsibilities. It organizes specialist work around your goal, examines the results, and coordinates corrections. Project files preserve agreed requirements, decisions, and progress so work can continue with context.
+You set the goal and important tradeoffs; the lead takes responsibility for coordination and delivery. The aim is to reduce repeated progress checks, message relaying, and teaching from scratch, making ongoing collaboration more useful and responsive to your needs.
 
-It is intended for continuing projects that span product design, technical design, development, and review. Reducing the user's coordination burden is a design aim; broader evidence of outcomes is still needed.
+## Three connected responsibilities
+
+- **Carry work through toward the goal.** Clarify each role's contribution, compare actual results with requirements, coordinate corrections, and check the revised result.
+- **Connect the right project leads.** Coordinate specialists within a project and contact suitable existing leads in other projects. Exchange questions and context, then apply their contributions to the current task.
+- **Build experience and use it again.** Keep the conditions, reasons, and results. Retrieve similar cases, compare conditions before adapting a method, and revise the experience when new results warrant it.
+
+Together, these support complete delivery across continuing projects, research, reports, and practical work. Simple tasks can remain solo. Cross-project communication requires host tools and appropriate access. Better ongoing collaboration is a design aim; long-term outcomes still need broader evidence.
+
+[Read the complete design article: collaboration, feedback, and experience](https://aidesign996.github.io/ai-practice/article-team-leader.html)
 
 **Current formal release: [0.5.23](https://github.com/aidesign996/team-leader/releases/latest) · 2026-09-10.** Keep user goals authoritative, distinguish effective requirements from adjustable experience, compare case conditions, and improve decisions from results. [Changes and upgrade requirements](CHANGELOG.md).
 
@@ -53,25 +61,38 @@ Select Team Leader or mention `$team-leader` in your project conversation, then 
 
 The lead should recover the goal, existing context, and unfinished work, then arrange the next step. It asks for essential missing requirements while you focus on making the result better.
 
+<a id="coordination"></a>
+
 **Reuse an appropriate existing professional owner, including a lead in another project.**
 
 Cross-project work requires communication tools and access to the necessary materials. When a new team is needed, ask: “Please establish the complete team for this project and coordinate its work.” With authorization, establish six visible responsibilities and activate those needed for each task. Suitable solo work can deliver a complete result; existing professional ownership remains in place.
 
 <a id="loop"></a>
 
-## How it works: goal, feedback, action
+## Two kinds of feedback: correction and experience
 
-The design draws on balancing feedback in *Thinking in Systems*. The user defines the goal, the lead observes results and identifies the gap, and specialist roles take action. The updated results return for another check.
+The design draws on feedback in *Thinking in Systems*. The two loops have different roles:
 
-<p align="center"><img src="assets/loop.en.png" width="470" alt="The lead compares project results with the user's goal and coordinates specialist actions to update the work."></p>
+- **Balancing feedback checks results against the goal.** The lead identifies gaps, coordinates specialist corrections, and checks the updated result.
+- **Reinforcing feedback supports further learning from experience.** Accumulated experience informs refinement and validation; newly established useful experience adds to that accumulation. Filtering and revision matter, since mistaken interpretations can also be reinforced.
 
-The lead coordinates who does the work and keeps checking whether it advances the goal. Early work can explore alternatives before converging against the goal and constraints. A lead alone does not guarantee stability: observations, feedback timing, and completed corrections matter.
+<p align="center"><img src="assets/loop.en.png" width="470" alt="Balancing feedback: the lead compares goals and results, coordinates specialist corrections, and checks again."></p>
+
+The diagram above shows balancing feedback. The [reinforcing-loop diagram in the complete article](https://aidesign996.github.io/ai-practice/article-team-leader.html#figure-2) shows experience feeding directly into refinement and validation. These are working-method concepts, not a calibrated system dynamics model or evidence of automatic, continuous capability growth.
+
+Early work can explore alternatives before selecting an implementation against goals and constraints. The lead needs to inspect real outputs; a completion report alone cannot establish that the goal has been met.
+
+<a id="experience"></a>
 
 ## Let experience inform the next decision
 
-“Make this easy to read” is the goal; paragraph breaks and bold text are possible methods. If the next page is full of bold text, the lead should compare conditions and may reduce emphasis instead. Retain the goal, conditions, reasons, and actual results so experience supports a new judgment. This is an illustrative comparison, not an outcome experiment.
+For a new task, recover the user goal, role responsibilities, and effective requirements before retrieving similar cases. Compare why the old choice was made and what differs now, then decide whether to reuse, adapt, or set aside the method.
 
-**Goals and effective requirements remain authoritative; old cases can change.** Refine the original experience when results add something useful. This is not model retraining or a guarantee of long-term omission-free behavior.
+“Make this easy to read” is the goal; paragraph breaks and bold text are possible methods. If the next page is full of bold text, the lead may reduce emphasis instead. The same goal can lead to different actions. This illustrates a decision process, not an outcome experiment.
+
+Rules and responsibilities live in existing entries such as `AGENTS.md` and `roles/`. Experience entries such as `docs/METHODOLOGY.md` link to cases with their conditions, reasons, and actual results. After the work, correct any remaining problems in the current output and update the original experience when something useful is learned.
+
+**Goals and effective requirements remain authoritative; old cases can change.** Saved records still need to be retrieved and applied. This is not model retraining or a guarantee of long-term omission-free behavior.
 
 <a id="roles"></a>
 
