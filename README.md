@@ -4,19 +4,20 @@
 
 **Codex · Astra** | **v0.5.24** | **MIT**
 
-[Install latest](#start) · [Update](#update) · [Use](#use) · [Change history](CHANGELOG.md) · [How it works](#loop) · [Feedback](#feedback)
+[Install latest](#start) · [Update](#update) · [Use](#use) · [How it works](#loop) · [Supervision and iteration](#iteration) · [Feedback](#feedback)
 
 **Team Leader is an AI team working method packaged as a Skill. It organizes work around your goal, corrects results through feedback, connects project leads directly, and brings experience into the next decision.**
 
-You set the goal and important tradeoffs; the lead takes responsibility for coordination and delivery. The aim is to reduce repeated progress checks, message relaying, and teaching from scratch, making ongoing collaboration more useful and responsive to your needs.
+You set the goal and important tradeoffs; the lead takes responsibility for coordination and delivery. When maintaining the Skill, its development lead can also follow actual use, find gaps between the design and execution, and organize improvements. The aim is to reduce progress chasing, message relaying, repeated explanations, and line-by-line checking.
 
-## Three connected responsibilities
+## How it helps get the work done
 
 - **Carry work through toward the goal.** Clarify each role's contribution, compare actual results with requirements, coordinate corrections, and check the revised result.
 - **Connect the right project leads.** Coordinate specialists within a project and contact suitable existing leads in other projects. Exchange questions and context, then apply their contributions to the current task.
 - **Build experience and use it again.** Keep the conditions, reasons, and results. Retrieve similar cases, compare conditions before adapting a method, and revise the experience when new results warrant it.
+- **Follow use and improve the method.** The Skill's development lead combines user feedback with actual work, checks whether the rules are being carried out, organizes revisions, and follows the effect of the update.
 
-Together, these support complete delivery across continuing projects, research, reports, and practical work. Simple tasks can remain solo. Cross-project communication requires host tools and appropriate access. Better ongoing collaboration is a design aim; long-term outcomes still need broader evidence.
+Together, these arrangements support complete delivery across continuing projects, research, reports, and practical work. Simple tasks can remain solo. Cross-project communication and observation require host tools and appropriate access. Smoother use over time is a design goal; long-term effects still need evidence from real situations.
 
 [Read the complete design article: collaboration, feedback, and experience](https://aidesign996.github.io/ai-practice/article-team-leader.html)
 
@@ -94,7 +95,7 @@ Early work can explore alternatives before selecting an implementation against g
 
 Start a new task by recovering the user goal, role responsibilities, and effective requirements, then retrieve related cases. Compare why an earlier choice was made and what is different now; decide whether to reuse, adapt, or skip the old method.
 
-<p align="center"><img src="assets/experience.en.png" width="360" alt="Goals guide the choice; results return to current work and to the original case."></p>
+<p align="center"><img src="assets/experience.en.png" width="470" alt="Goals guide the choice; results return to current work and to the original case."></p>
 
 The two return paths serve different purposes: **correct current work if the problem remains; refine the original experience when there is a new finding.** User feedback and the AI's actual attempts can both provide evidence. Unverified explanations remain hypotheses.
 
@@ -104,17 +105,43 @@ For example, making an article easy to understand is the goal; paragraph breaks 
 
 The Skill specifies how to read and update knowledge; project files hold the content. Effective requirements and case experience have separate homes connected by references. The lead retrieves what is relevant to the current problem.
 
-<p align="center"><img src="assets/files.en.png" width="420" alt="Separate homes for shared rules, roles, agreements, experience, and current status."></p>
+| Content | Home | What it keeps |
+| --- | --- | --- |
+| Shared rules | `AGENTS.md` | Agreements about reading project information and collaborating. |
+| Role responsibilities | `roles/` | Each role's responsibility and goal. |
+| Effective agreements | Product, technical, and acceptance documents | Confirmed requirements and decisions. |
+| Case experience | `docs/METHODOLOGY.md` | An experience index linking methods, cases, and results. |
+| Current status | `README.md`, `PROGRESS.md` | Unfinished work and the next step. |
 
-`AGENTS.md`: shared rules and when to read related materials.<br>
-`roles/`: each role's responsibilities and contribution to the overall goal.<br>
-Product, technical, and acceptance documents: confirmed requirements and decisions.<br>
-`docs/METHODOLOGY.md`: an experience entry point linking methods, cases, and results.<br>
-`README.md`, `PROGRESS.md`, and equivalents: current status, unfinished work, and next steps.
+The table shows the knowledge responsibilities in the bundled templates; existing projects can keep their own effective entry points. Cases retain the original conditions, reasons for a choice, actual results, and limits of applicability. Update the original record when new evidence arrives; unrelated or duplicate material need not become another entry.
 
-The diagram shows the supplied templates; existing projects can keep their own effective entry points. Cases retain conditions, reasons, actual results, and limits of applicability. Update the original record when new evidence arrives; unrelated or duplicate material need not become another entry.
+**What is worth retaining is a method or lesson that can improve a later decision.** Success and failure can both provide experience; explanations that have not been verified stay marked as hypotheses. The experience index links to specific records, and later evidence revises the original case so the next retrieval remains comparable and traceable.
 
 **Goals and effective requirements are binding; old cases can be adapted.** A one-time requirement applies to that task without automatically becoming a permanent rule. Saving files must be followed by actual retrieval, comparison, and use. This does not retrain the model or guarantee omission-free behavior over time.
+
+<a id="iteration"></a>
+
+## Supervise actual use and keep improving the Skill
+
+A design written into the Skill still needs evidence that it is being carried out. If leads are expected to retain experience, for example, check both whether useful experience was saved and whether later similar work actually drew on it.
+
+The development lead talks with users and, within existing access, examines earlier work records and outputs. Observing without first listing the exact checkpoints makes ordinary behavior easier to see. A lead saying that something was done still needs support from the actual work.
+
+<p align="center"><img src="assets/supervision.en.png" width="500" alt="The Skill development lead uses discussion and observation to check whether project leads retain and use experience."></p>
+
+When a gap appears, distinguish an execution omission, information that is hard to find, and an unclear rule. Correct project-specific problems in the project; return shared-method problems to the Skill, where the development lead organizes a revision and follows its effect.
+
+<p align="center"><img src="assets/iteration.en.png" width="500" alt="The user sets the goal; the development lead follows revision, installation, updates, reading, and use; observation and verification feed the next revision."></p>
+
+After an update, project leads read the applicable changes and continue their original work. First observe whether they can adjust relevant arrangements from the new rules, then check whether later tasks actually use those changes. **Installation, an acknowledgment of reading, an active adjustment, and sustained good use are different levels of evidence.**
+
+If you maintain a Skill, you can tell its development lead:
+
+> Follow how this Skill is actually used. Combine user feedback with actual work, identify which parts of the design are not being carried out, propose improvements, and follow the effect after the update.
+
+State which projects may be accessed, which leads may be contacted, and what may be changed this time. Check work around a concrete problem, an important result, or a version update. Installing the Skill alone does not create background monitoring.
+
+**The user sets the goal and direction; the development lead continues to observe, verify, and improve.** The Skill and working method are what iterate, allowing problems from use to inform the next revision. There is evidence of limited adoption and revision; whether this reduces reminders and improves results consistently still needs longer observation. [Read the complete analysis and practice](https://aidesign996.github.io/ai-practice/article-team-leader.html#section-6)
 
 ## One lead, five specialist responsibilities
 
@@ -136,6 +163,7 @@ In team mode, establish all six visible responsibilities when authorized, then a
 - **Primarily designed around Astra in Codex.** Sol has some specialist-role experience, but there is no comparable evaluation of a complete Sol team.
 - **Multi-role work can use substantial quota.** Explicit user model and effort choices come first. When automatic allocation is authorized, the lead usually starts at high; specialist effort follows complexity and checks stay proportionate to actual risks.
 - **Simple tasks can remain solo.** Package integrity, extraction into a clean directory, and basic structure were checked. A complete first run on a new account, long-term correction, and quota savings have not been evaluated systematically.
+- **Supervision and iteration also consume resources.** Reading records, locating problems, revising, and verifying all take effort. Focus them on concrete gaps, reuse unchanged evidence, and avoid repeated checking for its own sake.
 
 [Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/latest)
 
