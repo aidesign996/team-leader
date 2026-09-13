@@ -165,7 +165,7 @@ In team mode, establish all six visible responsibilities when authorized, then a
 - **Simple tasks can remain solo.** Package integrity, extraction into a clean directory, and basic structure were checked. A complete first run on a new account, long-term correction, and quota savings have not been evaluated systematically.
 - **Supervision and iteration also consume resources.** Reading records, locating problems, revising, and verifying all take effort. Focus them on concrete gaps, reuse unchanged evidence, and avoid repeated checking for its own sake.
 
-[Read the full design article on GitHub](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.en.md) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/latest)
+[Read the complete principles and practice](https://aidesign996.github.io/ai-practice/article-team-leader.html) · [Release notes and checksums](https://github.com/aidesign996/team-leader/releases/latest)
 
 <a id="feedback"></a>
 

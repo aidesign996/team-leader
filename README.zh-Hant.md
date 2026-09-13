@@ -165,7 +165,7 @@ Skill 規定資料的讀取與更新方式，項目文件保存具體內容。�
 - **簡單任務可以保持單人。** 當前已檢查包完整性、乾淨目錄解壓與基礎結構；新賬號完整首次運行、長期自主糾偏和節省額度尚未系統驗證。
 - **監督與迭代也需要投入。** 讀取記錄、定位問題、修訂和驗證都會消耗資源，應圍繞具體差距安排，複用未變化的證據，避免為了檢查而反覆檢查。
 
-[閱讀完整設計文章（GitHub）](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.zh-Hant.md) · [查看版本說明與校驗文件](https://github.com/aidesign996/team-leader/releases/latest)
+[閱讀完整原理與實踐](https://aidesign996.github.io/ai-practice/article-team-leader.zh-hant.html) · [查看版本說明與校驗文件](https://github.com/aidesign996/team-leader/releases/latest)
 
 <a id="feedback"></a>
 

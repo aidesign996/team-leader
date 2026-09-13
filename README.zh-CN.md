@@ -165,7 +165,7 @@ Skill 规定资料的读取与更新方式，项目文件保存具体内容。�
 - **简单任务可以保持单人。** 当前已检查包完整性、干净目录解压与基础结构；新账号完整首次运行、长期自主纠偏和节省额度尚未系统验证。
 - **监督与迭代也需要投入。** 读取记录、定位问题、修订和验证都会消耗资源，应围绕具体差距安排，复用未变化的证据，避免为了检查而反复检查。
 
-[阅读完整设计文章（GitHub）](https://github.com/aidesign996/ai-practice/blob/main/docs/team-leader/ARTICLE.md) · [查看版本说明与校验文件](https://github.com/aidesign996/team-leader/releases/latest)
+[阅读完整原理与实践](https://aidesign996.github.io/ai-practice/article-team-leader.zh.html) · [查看版本说明与校验文件](https://github.com/aidesign996/team-leader/releases/latest)
 
 <a id="feedback"></a>
 
